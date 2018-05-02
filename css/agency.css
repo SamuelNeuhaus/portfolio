@@ -312,17 +312,17 @@ section {
   text-transform: none; }
 
 /* line 255, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-#portfolio .portfolio-item {
+#interests .interests-item {
   margin: 0 0 15px;
   right: 0; }
   /* line 258, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-  #portfolio .portfolio-item .portfolio-link {
+  #interests .interests-item .interests-link {
     display: block;
     position: relative;
     max-width: 400px;
     margin: 0 auto; }
     /* line 263, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-    #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    #interests .interests-item .interests-link .interests-hover {
       background: rgba(254, 209, 54, 0.1);
       position: absolute;
       width: 100%;
@@ -332,10 +332,10 @@ section {
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s; }
       /* line 272, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+      #interests .interests-item .interests-link .interests-hover:hover {
         opacity: 1; }
       /* line 275, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+      #interests .interests-item .interests-link .interests-hover .interests-hover-content {
         position: absolute;
         width: 100%;
         height: 20px;
@@ -345,37 +345,37 @@ section {
         margin-top: -12px;
         color: white; }
         /* line 284, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+        #interests .interests-item .interests-link .interests-hover .interests-hover-content i {
           margin-top: -12px; }
         /* line 287, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+        #interests .interests-item .interests-link .interests-hover .interests-hover-content h3,
+        #interests .interests-item .interests-link .interests-hover .interests-hover-content h4 {
           margin: 0; }
   /* line 294, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-  #portfolio .portfolio-item .portfolio-caption {
+  #interests .interests-item .interests-caption {
     max-width: 400px;
     margin: 0 auto;
     background-color: white;
     text-align: center;
     padding: 25px; }
     /* line 300, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-    #portfolio .portfolio-item .portfolio-caption h4 {
+    #interests .interests-item .interests-caption h4 {
       text-transform: none;
       margin: 0; }
     /* line 304, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-    #portfolio .portfolio-item .portfolio-caption p {
+    #interests .interests-item .interests-caption p {
       font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-style: italic;
       font-size: 16px;
       margin: 0; }
 
 /* line 312, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-#portfolio * {
+#interests * {
   z-index: 2; }
 
 @media (min-width: 767px) {
   /* line 319, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-  #portfolio .portfolio-item {
+  #interests .interests-item {
     margin: 0 0 30px; } }
 
 /* line 327, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
@@ -669,13 +669,13 @@ ul.social-buttons {
   outline: none; }
 
 /* line 640, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-.portfolio-modal .modal-dialog {
+.interests-modal .modal-dialog {
   margin: 0;
   height: 100%;
   width: auto; }
 
 /* line 645, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-.portfolio-modal .modal-content {
+.interests-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
   -webkit-box-shadow: none;
@@ -685,28 +685,28 @@ ul.social-buttons {
   padding: 100px 0;
   text-align: center; }
   /* line 654, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-  .portfolio-modal .modal-content h2 {
+  .interests-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em; }
   /* line 658, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-  .portfolio-modal .modal-content p {
+  .interests-modal .modal-content p {
     margin-bottom: 30px; }
   /* line 661, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-  .portfolio-modal .modal-content p.item-intro {
+  .interests-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px; }
   /* line 667, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-  .portfolio-modal .modal-content ul.list-inline {
+  .interests-modal .modal-content ul.list-inline {
     margin-bottom: 30px;
     margin-top: 0; }
   /* line 671, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-  .portfolio-modal .modal-content img {
+  .interests-modal .modal-content img {
     margin-bottom: 30px; }
 
 /* line 675, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-.portfolio-modal .close-modal {
+.interests-modal .close-modal {
   position: absolute;
   width: 75px;
   height: 75px;
@@ -715,10 +715,10 @@ ul.social-buttons {
   right: 25px;
   cursor: pointer; }
   /* line 683, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-  .portfolio-modal .close-modal:hover {
+  .interests-modal .close-modal:hover {
     opacity: 0.3; }
   /* line 686, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-  .portfolio-modal .close-modal .lr {
+  .interests-modal .close-modal .lr {
     height: 75px;
     width: 1px;
     margin-left: 35px;
@@ -730,7 +730,7 @@ ul.social-buttons {
     /* Safari and Chrome */
     z-index: 1051; }
     /* line 697, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-    .portfolio-modal .close-modal .lr .rl {
+    .interests-modal .close-modal .lr .rl {
       height: 75px;
       width: 1px;
       background-color: #222222;
@@ -742,7 +742,7 @@ ul.social-buttons {
       z-index: 1052; }
 
 /* line 710, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
-.portfolio-modal .modal-backdrop {
+.interests-modal .modal-backdrop {
   opacity: 0;
   display: none; }
 
@@ -767,5 +767,12 @@ img::-moz-selection {
 /* line 736, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
 body {
   webkit-tap-highlight-color: #fed136; }
+
+/* line 743, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
+.team-member p {
+  text-align: left; }
+  /* line 745, ../../Users/Samuel/Documents/Wed Dev Projects/portfolio/css/agency.scss */
+  .team-member p.text-muted {
+    text-align: center; }
 
 /*# sourceMappingURL=agency.css.map */
